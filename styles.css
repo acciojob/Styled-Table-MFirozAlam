@@ -1,1 +1,48 @@
 /* your code */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Center the table */
+.table-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header */
+thead {
+    background-color: #2f5d87;
+    color: white;
+}
+
+th {
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Body rows */
+td {
+    padding: 14px;
+    color: #333;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd) {
+    background-color: #d9d9d9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #cfcfcf;
+}
